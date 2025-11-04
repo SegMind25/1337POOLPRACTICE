@@ -46,7 +46,7 @@ void ft_print_combn(int n)
 
 int main()
 {
-  ft_print_combn(2);
+  ft_print_combn(8);
   write(1, "\n", 1);
   return 0;
 }
