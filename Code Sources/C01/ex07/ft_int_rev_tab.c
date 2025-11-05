@@ -1,10 +1,11 @@
-#include <stdio.h>
-
-void  ft_int_rev_tab(int *tab, int size)
+void ft_int_rev_tab(int *tab, int size)
 {
   int temp;
-  int start = 0;
-  int end = size - 1;
+  int start;
+  int end;
+
+  start = 0;
+  end = size - 1;
 
   while(start < end)
   {
@@ -17,14 +18,16 @@ void  ft_int_rev_tab(int *tab, int size)
   }
 }
 
+#include <stdio.h>
+
 int main()
 {
-  int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+  int i = 0;
+  int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
   int size = 10;
 
   ft_int_rev_tab(arr, size);
 
-  int i = 0;
   while(i < size)
   {
     printf("%d", arr[i]);
