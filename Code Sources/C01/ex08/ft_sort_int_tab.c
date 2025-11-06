@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-void ft_rev(int *tab, int size)
+void ft_sort_int_tab(int *tab, int size)
 {
   int i;
   int j;
@@ -14,6 +12,8 @@ void ft_rev(int *tab, int size)
     {
       if(tab[i] > tab[j])
       {
+        int temp;
+
         temp = tab[i];
         tab[i] = tab[j];
         tab[j] = temp;
@@ -24,12 +24,14 @@ void ft_rev(int *tab, int size)
   }
 }
 
+#include <stdio.h>
+
 int main()
 {
-  int tab[] = {10, 25, 2, 05, 4, 23, 6, 80, 8, 100};
-  int size = 10;
+  int tab[] = {1, 5, 10, 20, 5, 0, 6, 8};
+  int size = 8;
 
-  ft_rev(tab, size);
+  ft_sort_int_tab(tab, size);
 
   int i = 0;
   while(i < size)
