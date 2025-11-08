@@ -15,7 +15,7 @@ char *ft_strcpy(char *dest, char *src)
 
 int main()
 {
-  char dest[15];
+  char dest[5];
   char src[] = "Bekkali";
 
   printf("Before : %s\n", dest);

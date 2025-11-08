@@ -15,9 +15,9 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
 
 int main()
 {
-  char dest[15];
+  char dest[6];
   char src[] = "Bekkali";
-  int n = 15;
+  int n = 7;
 
   printf("Before : %s\n", dest);
 
