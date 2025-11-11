@@ -1,41 +1,9 @@
 #include <stdio.h>
 
-void ft_rev(int *tab, int size)
-{
-  int i;
-  int j;
-  int temp;
-
-  i = 0;
-  while(i < size)
-  {
-    j = i + 1;
-    while(j < size)
-    {
-      if(tab[i] > tab[j])
-      {
-        temp = tab[i];
-        tab[i] = tab[j];
-        tab[j] = temp;
-      }
-      j++;
-    }
-    i++;
-  }
-}
-
 int main()
 {
-  int tab[] = {10, 25, 2, 05, 4, 23, 6, 80, 8, 100};
-  int size = 10;
+  char *str = "Bekkali";
+  char str1 = &str;
 
-  ft_rev(tab, size);
-
-  int i = 0;
-  while(i < size)
-  {
-    printf("%d ", tab[i]);
-    i++;
-  }
-  return 0;
+  printf("%s\n", str1);
 }
