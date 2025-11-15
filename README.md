@@ -80,13 +80,21 @@
 
 <div align="center">
 
-| Exercise | Status | Difficulty | Description |
-|----------|--------|------------|-------------|
-| Exercise 00 | 🔄 | 🟢 Easy | Basic I/O Operations |
-| Exercise 01 | 🔄 | 🟡 Medium | String Manipulation |
-| Exercise 02 | 🔄 | 🔴 Hard | Advanced Algorithms |
-| Exercise 03 | 🔄 | 🔴 Hard | System Programming |
-| ... | ... | ... | ... |
+| Exercise | Status | Difficulty |        Description         |
+|----------|--------|------------|----------------------------|
+| C00      |   🔄   | 🟢 Easy     | Basic I/O Operations In C  |
+| C01      |   🔄   | 🟡 Medium   | Pointers                   |
+| C02 / C03|   🔄   | 🟢 Easy     | String Manipulation        |
+| C04      |   🔄   | 🟢 Easy     | Dealing With Numbers       |
+| C05      |   🔄   | 🟡 Medium   | Math & Recursion           |
+| C06      |   🔄   | 🟡 Medium   | Argv & Argc                |
+| C07      |   🔄   | 🟡 Medium   | Memory Allocation          |
+| C08      |   🔄   | 🟡 Medium   | Header & Structures        |
+| C09      |   🔄   | 🟡 Medium   | Makefiles & Static Liberaries|
+| C10      |   🔄   | 🔴 Hard     | File Manipulation          |
+| C11      |   🔄   | 🟡 Medium   | Pointer To Function        |
+| C12      |   🔄   | 🔴 Hard     | Linked List |
+| C13      |   🔄   | 🔴 Hard     | Binary Trees |
 
 </div>
 
@@ -98,11 +106,11 @@
 
 ```mermaid
 graph LR
-    A[Start Pool] --> B[Exercise 00]
-    B --> C[Exercise 01]
-    C --> D[Exercise 02]
-    D --> E[Exercise 03]
-    E --> F[Complete Pool]
+    A[Start Pool] --> B[C00]
+    B --> C[C01]
+    C --> D[02]
+    D --> E[C03]
+    E --> F[Not Finish Righ Now !]
     
     style A fill:#00c851
     style B fill:#00c851
