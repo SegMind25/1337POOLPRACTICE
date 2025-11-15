@@ -82,8 +82,8 @@
 
 | Exercise | Status | Difficulty |        Description         |
 |----------|--------|------------|----------------------------|
-| C00      |   🔄   | 🟢 Easy     | Basic I/O Operations In C  |
-| C01      |   🔄   | 🟡 Medium   | Pointers                   |
+| C00      |   ✅   | 🟢 Easy     | Basic I/O Operations In C  |
+| C01      |   ✅   | 🟡 Medium   | Pointers                   |
 | C02 / C03|   🔄   | 🟢 Easy     | String Manipulation        |
 | C04      |   🔄   | 🟢 Easy     | Dealing With Numbers       |
 | C05      |   🔄   | 🟡 Medium   | Math & Recursion           |
