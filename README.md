@@ -100,18 +100,6 @@
 
 ---
 
-## 📊 **Progress Tracker**
-
-<div align="center">
-
-```mermaid
-graph LR
-    A[Start Pool] --> B[C00]
-    B --> C[C01]
-    C --> D[02]
-    D --> E[C03]
-    E --> F[Not Finish Righ Now !]
-    
     style A fill:#00c851
     style B fill:#00c851
     style C fill:#ffab00
