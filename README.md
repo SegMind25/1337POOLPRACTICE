@@ -98,11 +98,3 @@
 
 </div>
 
----
-
-    style A fill:#00c851
-    style B fill:#00c851
-    style C fill:#ffab00
-    style D fill:#ff5252
-    style E fill:#ff5252
-    style F fill:#ff5252
