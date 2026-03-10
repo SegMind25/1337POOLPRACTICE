@@ -44,7 +44,7 @@
 
 | **Student** | **School** | **Location** | **GitHub** |
 |-------------|------------|--------------|------------|
-| Bekkali | 1337Med | 🇲🇦 Morocco | [iodx2004](https://github.com/iodx2004) |
+| Bekkali | 1337Med | 🇲🇦 Morocco | [SegMind25](https://github.com/SegMind25) |
 
 ---
 
@@ -84,13 +84,13 @@
 |----------|--------|------------|----------------------------|
 | C00      |   ✅   | 🟢 Easy     | Basic I/O Operations In C  |
 | C01      |   ✅   | 🟡 Medium   | Pointers                   |
-| C02 / C03|   🔄   | 🟢 Easy     | String Manipulation        |
-| C04      |   🔄   | 🟢 Easy     | Dealing With Numbers       |
-| C05      |   🔄   | 🟡 Medium   | Math & Recursion           |
-| C06      |   🔄   | 🟡 Medium   | Argv & Argc                |
-| C07      |   🔄   | 🟡 Medium   | Memory Allocation          |
-| C08      |   🔄   | 🟡 Medium   | Header & Structures        |
-| C09      |   🔄   | 🟡 Medium   | Makefiles & Static Liberaries|
+| C02 / C03|   ✅   | 🟢 Easy     | String Manipulation        |
+| C04      |   ✅   | 🟢 Easy     | Dealing With Numbers       |
+| C05      |   ✅   | 🟡 Medium   | Math & Recursion           |
+| C06      |   ✅   | 🟡 Medium   | Argv & Argc                |
+| C07      |   ✅   | 🟡 Medium   | Memory Allocation          |
+| C08      |   ✅   | 🟡 Medium   | Header & Structures        |
+| C09      |   ✅   | 🟡 Medium   | Makefiles & Static Liberaries|
 | C10      |   🔄   | 🔴 Hard     | File Manipulation          |
 | C11      |   🔄   | 🟡 Medium   | Pointer To Function        |
 | C12      |   🔄   | 🔴 Hard     | Linked List |
