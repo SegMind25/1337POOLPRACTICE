@@ -1,6 +1,21 @@
 #include <unistd.h>
 
-void ft_putstr(char *str)
+int main()
 {
-  
+
+  char c = 'a';
+  while(c <= 'z')
+  {
+    if(c % 2 == 0)
+    {
+      char u = c - 32;
+      write(1, &u, 1);
+    }
+    else
+    {
+      write(1, &c, 1);
+    }
+    c++;
+  }
+  write(1, "\n", 1);
 }
