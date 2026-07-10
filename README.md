@@ -96,4 +96,10 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=SegMind25/1337POOLPRACTICE&type=date&legend=top-left)](https://www.star-history.com/#SegMind25/1337POOLPRACTICE&type=date&legend=top-left)
+<a href="https://star-history.com/#SegMind25/1337POOLPRACTICE&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=SegMind25/1337POOLPRACTICE&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=SegMind25/1337POOLPRACTICE&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=SegMind25/1337POOLPRACTICE&type=Date" />
+ </picture>
+</a>
