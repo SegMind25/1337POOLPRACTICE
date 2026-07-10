@@ -94,8 +94,12 @@
 
 </div>
 
+<div align="center">
+
 ---
 
 [![GitHub Stars](https://img.shields.io/github/stars/SegMind25/1337POOLPRACTICE?style=for-the-badge&logo=github&color=yellow)](https://github.com/SegMind25/1337POOLPRACTICE/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/SegMind25/1337POOLPRACTICE?style=for-the-badge&logo=github&color=blue)](https://github.com/SegMind25/1337POOLPRACTICE/network/members)
 [![GitHub Contributors](https://img.shields.io/github/contributors/SegMind25/1337POOLPRACTICE?style=for-the-badge&logo=github&color=green)](https://github.com/SegMind25/1337POOLPRACTICE/graphs/contributors)
+
+</div>
