@@ -1,17 +1,19 @@
 #include <stdlib.h>
 
 char *ft_strdup(char *src) {
-    int i = 0;
+    size_t i = 0;
     char *dup;
 
     while (src[i])
         i++;
 
-    dup = (char *)malloc((i + 1) * sizeof(char));
+    if (i == (size_t)-1)
+        return NULL;
+    dup = (char *)malloc(i + 1);
     if (dup == NULL)
         return NULL;
 
-    for (int j = 0; j <= i; j++)
+    for (size_t j = 0; j <= i; j++)
         dup[j] = src[j];
 
     return dup;
