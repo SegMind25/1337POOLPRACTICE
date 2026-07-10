@@ -10,7 +10,7 @@ int main(int ac, char **av)
   i = 0;
   while(i < 256)
   {
-    i++;
+    seen[i++] = 0;
   }
 
   if(ac == 3)
