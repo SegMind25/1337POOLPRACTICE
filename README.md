@@ -24,11 +24,7 @@
 - [🎯 About](#-about)
 - [🚀 Features](#-features)
 - [🛠️ Technologies](#️-technologies)
-- [📋 Exercises](#-exercises)
-- [📊 Progress](#-progress)
-- [💻 Usage](#-usage)
-- [🤝 Contributing](#-contributing)
-- [📖 Acknowledgments](#-acknowledgments)
+- [📋 Exercises](#-exercises-overview)
 
 ---
 
@@ -90,7 +86,7 @@
 | C06      |   ✅   | 🟡 Medium   | Argv & Argc                |
 | C07      |   ✅   | 🟡 Medium   | Memory Allocation          |
 | C08      |   ✅   | 🟡 Medium   | Header & Structures        |
-| C09      |   ✅   | 🟡 Medium   | Makefiles & Static Liberaries|
+| C09      |   ✅   | 🟡 Medium   | Makefiles & Static Libraries|
 | C10      |   🔄   | 🔴 Hard     | File Manipulation          |
 | C11      |   🔄   | 🟡 Medium   | Pointer To Function        |
 | C12      |   🔄   | 🔴 Hard     | Linked List |
