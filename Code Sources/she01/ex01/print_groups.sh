@@ -1,3 +1,3 @@
 #!/bin/bash
 
-printf "%s" "$(id -nG $"FT_USER" | tr ' ' ',')"
+printf "%s" "$(id -nG "$FT_USER" | tr ' ' ',')"
