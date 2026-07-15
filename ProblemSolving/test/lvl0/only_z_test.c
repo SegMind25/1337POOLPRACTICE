@@ -7,6 +7,6 @@ void ft_putchar(char c)
 
 int main()
 {
-    ft_putchar('z');
-    ft_putchar('\n');
+  ft_putchar('z');
+  ft_putchar('\n');
 }
