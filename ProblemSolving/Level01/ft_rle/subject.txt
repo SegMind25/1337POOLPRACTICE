@@ -1,0 +1,35 @@
+Files to turn in : ft_rle.c
+
+Allowed functions : 
+
+------------------------------------------------------------------------------
+
+Write a program that takes a string as argument and prints it
+run-length encoded to the standard output, followed by a '\n'.
+
+Run-length encoding replaces each sequence of identical consecutive
+characters by the number of repetitions followed by the character
+itself.
+
+If no argument is given, or more than one argument is given, the
+program prints nothing but a '\n' (or exits cleanly, depending on
+your implementation choice — make it consistent).
+
+Examples :
+
+	$> ./ft_rle "aaabbcc"
+	3a2b2c
+	$> ./ft_rle "aaabbcc" | cat -e
+	3a2b2c$
+	$>
+
+	$> ./ft_rle "abcdef"
+	1a1b1c1d1e1f
+	$>
+
+	$> ./ft_rle ""
+	$>
+
+	$> ./ft_rle
+	$>
+
