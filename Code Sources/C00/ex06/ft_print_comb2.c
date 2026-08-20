@@ -1,33 +1,39 @@
 #include <unistd.h>
 
+void ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
 void ft_print_comb2(void)
 {
-  int i, j = 0;
-  while(i <= 98)
-  {
-    j = i + 1;
-    while(j <= 99)
-    {
-      write(1, &"0123456789"[i / 10], 1);
-      write(1, &"0123456789"[i % 10], 1);
+	int i;
+	int j;
 
-      write(1, " ", 1);
-
-      write(1, &"0123456789"[j / 10], 1);
-      write(1, &"0123456789"[j % 10], 1);
-
-      if(!(i == 98 && j == 99))
-      {
-        write(1, ", ", 2);
-      }
-      j++;
-    }
-    i++;
-  }
-  write(1, "\n", 1);
+	i = 0;
+	while (i <= 98)
+	{
+		j = i + 1;
+		while (j <= 99)
+		{
+			ft_putchar(i / 10 + 48);
+			ft_putchar(i % 10 + 48);
+			ft_putchar(' ');
+			ft_putchar(j / 10 + 48);
+			ft_putchar(j % 10 + 48);
+			if (!(i == 98 && j == 99))
+			{
+				ft_putchar(',');
+				ft_putchar(' ');
+			}
+			j++;
+		}
+		i++;
+	}
+	ft_putchar('\n');
 }
 
 int main()
 {
-  ft_print_comb2();
+	ft_print_comb2();
 }

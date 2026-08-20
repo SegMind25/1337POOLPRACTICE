@@ -9,5 +9,5 @@ int main()
 {
   int nb;
   ft_ft(&nb);
-  printf("%d", nb);
+  printf("%p",&nb);
 }

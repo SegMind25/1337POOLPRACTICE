@@ -14,5 +14,5 @@ int main()
 
   ft_div_mod(a, b, &div, &mod);
 
-  printf("%d / %d", div, mod);
+  printf("%d , %d", div, mod);
 }
